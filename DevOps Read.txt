@@ -1,0 +1,114 @@
+command for linux 
+tcp n udp ports - netstat
+find specific word - grep
+line 99 using head n tail - head - 
+change ownership of file  - chown
+chnage group file permission - chgrp
+show disk space -df
+seeing memory size - free
+file types
+display current processes(to show active linux processes)  - top
+list task - jobs
+port number of FTP - 20
+
+
+
+
+o trigger a Jenkins pipeline with a new commit to Git branch you need to add the web hook on Git repository settings and select Pushes trigger event.
+
+https://www.edureka.co/community/49753/auto-build-job-jenkins-there-change-code-github-repository
+
+Azure devops processes
+ARM 
+Resource group
+AWS service n details 
+types of pipeline and difference
+How to build java bar using jenkins
+steps to create pipeline in Jenkins
+what to write in groovy for build deployments
+what in CI and whai in CD
+check how to deploy bar file in jenkins
+check for agile certification 
+ http vs https difference
+ what to do when we shift from http to https
+ where to download https certificate
+ how to automatically sync code - using poll scm, in git using webhooks - check next tab - new2
+ 
+ 
+SVN 
+Git Branches
+how to move from SVN to Git
+Reslove conflicts of file name while building 
+Ansible   
+UCD agent pools, diffenece bewteen agent n agent pool
+configuration of UCD in jenkins
+https://www.ibm.com/support/pages/how-integrate-urbancode-deploy-jenkins-continuous-integration
+jenkins security 
+
+
+ayu.mhjn@gmail.com
+Welc0meJsk3!
+user ayushimhjn09
+ayushi token -- 
+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
+
+
+
+git command
+config user.name  - to give suer name
+config user.email    to get user email
+config --global user.name "xyzzz"
+config --global user.email "xyzzz@email.com"
+init 
+status 
+clone
+add to add file in staging area
+commit -m "message" to commit file to repo with message
+log to see commit history
+log --oneline all  comit hashcode history upto 7 charcater
+git checkout "hashcode upto 7" - to view whats in that checkin   anf head will shift to this commit(not poiniting to any branch)
+git checkout master - head will shift to master 
+git restore filename - restore file to last checkin(means lost f eror whil editing n don know so get the last checkin from repo) and file back to head
+git restore --source HEAD`digit filename   to restore checkin other than last may be last 3 or last 4 (give digit after tilde sign)
+git restore --staged filename   to remove file from staging area (unstage)
+
+git reset hashcode7digit   file will remove that commit from history but commited code will be there in file 
+git reset hashcode7digit --hard   file will remove that commit along with the code
+
+git revert hashcode7digit    good practice to use and safe way to use reset as it creates new commit with the hashcode we give
+
+rm -rf reponame - to delete a repo
+git branch <branch_name>    to create new branch from master
+git branch -m <new_name>     to rename branch
+git branch -d <branch_name>   to delete brnaches which are already merged
+git branch -D <branch_name>   to delete brnaches which are not merged 
+make sure in delete case you are not in the branch
+git merge <barnch name>  should be in a the branch where we need to merge
+
+git branch  to report all branches
+git switch <branch_name> to switch branch
+git diff   - to show difference in all files after last commit to current state in one branch
+git diff <branch1 branch2>   to show all difference in branch1 n branch2 
+   
+gut remote      list remote connections
+git remote -v   to check remote conncetions with URL
+git remote add "name" url - pass name and url (may require Personal AcessToken) of the remote repo to add to local
+git remote rename oldname newname    - change name
+git remote remove barnchname   - lost connection from remote
+
+private repo - via Personal Access Token(generate from settings and developers settings) or GIT GUI
+
+
+git push -u branch_name master       push code to remotr
+git fetch       download remote changes but will not see them in working directory or willnot override over current work
+git pull    	download remote changes but will see them in working directory
+
+.gitignore - add files names in it, to ignore file while commit and also while creating repo we can select ignore file  (when commit ths file it we wil be able to see file names which are ignored but not files, to avoid seeing files use folder names in gitignore file)  
+
+
+git stash - to save changes temporairly in a stack, if you want to move to other branches and dont wnat to lose edited changes as you have not saved it yet
+
+git stash pop - to pop out changs fromm the stash area back
+git stash apply - the stash changes will be pop out and will be in stashing area as well to view later
+
+
